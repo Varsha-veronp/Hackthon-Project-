@@ -1,0 +1,15 @@
+<suite name="Practo Suite" verbose="0">
+    <listeners>
+        <listener class-name="org.testng.reporters.JUnitReportReporter" />
+        <listener class-name="org.testng.reporters.XMLReporter" />
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+        <listener class-name="org.testng.reporters.FailedReporter" />
+        <listener class-name="org.testng.reporters.jq.Main" />
+        </listeners>
+    
+    <test name="Practo Automation Test">
+        <classes>
+            <class name="tests.HospitalSearch" />
+        </classes>
+    </test>
+</suite>
